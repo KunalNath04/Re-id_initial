@@ -6,7 +6,7 @@ A Python-based pipeline for detecting, tracking, and re-identifying football pla
 
 ### 🔍 Features
 
-* **Accurate object detection** using YOLOv8 (ultralytics).
+* **Accurate object detection** using YOLOv11 (ultralytics).
 * **Robust multi-object tracking** with ByteTrack algorithm.
 * **Person re-identification (ReID)** via OSNet model (torchreid) to maintain consistent identities across occlusions.
 * **Customizable gallery**: catalog feature embeddings and match new detections with a threshold.
@@ -17,20 +17,9 @@ A Python-based pipeline for detecting, tracking, and re-identifying football pla
 
 ### 🛠️ Requirements
 
-* Python 3.8+
+* Python 3.11.4
 * CUDA-enabled GPU (recommended) or CPU fallback
 
-**Python packages** (see `requirements.txt`):
-
-```
-ultralytics
-opencv-python
-torch
-torchvision
-numpy
-scikit-learn
-torchreid
-```
 
 ---
 
@@ -142,7 +131,7 @@ python object_tracking_reid.py
 
 1. **Detection & Tracking**
 
-   * Load YOLOv8 detector and ByteTrack tracker.
+   * Load YOLOv11 detector and ByteTrack tracker.
    * For each frame: detect objects, associate detections across frames, assign ByteTrack IDs.
 
 2. **Crop & Embedding**
@@ -172,22 +161,7 @@ python object_tracking_reid.py
 
 ---
 
-### 🤝 Contributing
 
-Contributions are welcome!
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/my-change`)
-3. Commit your changes (`git commit -m "Add my feature"`)
-4. Push to the branch (`git push origin feature/my-change`)
-5. Open a Pull Request
-
----
-
-### 📄 License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
 
 *Happy tracking!*
