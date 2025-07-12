@@ -1,0 +1,9 @@
+tracker_type: bytetrack       # use the ByteTrack algorithm
+track_high_thresh: 0.25       # detection confidence threshold for initial association
+track_low_thresh: 0.1         # detection confidence threshold for secondary association
+new_track_thresh: 0.6         # min confidence to start a new track
+track_buffer: 30              # how many frames to keep 'lost' tracks alive
+match_thresh: 0.8             # IoU threshold for matching tracks
+
+# ← add this line:
+fuse_score: False             # whether to combine detection scores with motion-based scores
