@@ -49,6 +49,7 @@ A Python-based pipeline for detecting, tracking, and re-identifying football pla
 4. **Download weights**:
 
    * Place your YOLO model weights (`best.pt`) in `models/`
+   * Place your input video (`15sec_input_720p.mp4`) in `assets/`
    * TorchReID will automatically download OSNet weights on first run.
 
 ---
