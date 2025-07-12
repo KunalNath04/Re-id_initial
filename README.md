@@ -54,8 +54,6 @@ A Python-based pipeline for detecting, tracking, and re-identifying football pla
 
 ---
 
----
-
 ### 🚀 Usage
 
 Run the pipeline on a video file and generate an output with annotated tracks:
