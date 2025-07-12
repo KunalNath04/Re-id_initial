@@ -53,6 +53,21 @@ A Python-based pipeline for detecting, tracking, and re-identifying football pla
 
 ---
 
+---
+
+### 🚀 Usage
+
+Run the pipeline on a video file and generate an output with annotated tracks:
+
+```bash
+python object_tracking_reid.py
+```
+
+* Output is saved to the path specified by `OUTPUT_FILE`.
+* Progress and final confirmation printed in console.
+
+---
+
 ### ⚙️ Configuration
 
 * **Paths & parameters** are set at the top of `object_tracking_reid.py`:
@@ -112,20 +127,6 @@ A Python-based pipeline for detecting, tracking, and re-identifying football pla
 └── requirements.txt
 ```
 
----
-
-### 🚀 Usage
-
-Run the pipeline on a video file and generate an output with annotated tracks:
-
-```bash
-python object_tracking_reid.py
-```
-
-* Output is saved to the path specified by `OUTPUT_FILE`.
-* Progress and final confirmation printed in console.
-
----
 
 ### 📝 How It Works
 
