@@ -28,8 +28,8 @@ A Python-based pipeline for detecting, tracking, and re-identifying football pla
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/football_tracker_reid.git
-   cd football_tracker_reid
+   git clone https://github.com/KunalNath04/Re-id_initial.git
+   cd Re-id_initial
    ```
 
 2. **Create and activate a virtual environment** (optional but recommended):
